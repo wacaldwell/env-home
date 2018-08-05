@@ -4,6 +4,7 @@ forge 'forge.puppetlabs.com'
 mod 'puppetlabs/ntp', '4.1.0'
 mod 'puppetlabs/stdlib'
 mod 'hunner-wordpress', '1.0.0'
+mod 'puppetlabs-concat', '4.2.1'
 # #
 mod 'apache',
   :git => 'git@github.com:wacaldwell/apache.git',
