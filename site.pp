@@ -14,4 +14,5 @@ node cavemanbeats-web {
   include sysprep
   include syskeys
   include apache
+  include wordpress
 }

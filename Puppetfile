@@ -3,6 +3,7 @@ forge 'forge.puppetlabs.com'
 # Forge Modules
 mod 'puppetlabs/ntp', '4.1.0'
 mod 'puppetlabs/stdlib'
+mod 'hunner-wordpress', '1.0.0'
 # #
 mod 'apache',
   :git => 'git@github.com:wacaldwell/apache.git',
