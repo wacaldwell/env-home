@@ -1,5 +1,4 @@
 node cavemanbeats-cmbase {
-  include apache
   include sysprep
   include syskeys
   include sysmounts
@@ -11,6 +10,8 @@ node cmbpi-cmbase {
   include sysprep
 }
 
-node ubuntu-cmbase {
+node cavemanbeats-web {
+  include sysprep
   include syskeys
+  include apache
 }
