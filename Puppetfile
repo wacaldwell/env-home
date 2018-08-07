@@ -5,7 +5,6 @@ mod 'puppetlabs/ntp', '4.1.0'
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs-concat', '4.2.1'
 mod 'puppetlabs-mysql', '6.0.0'
-mod 'martasd-mediawiki', '0.3.0'
 #
 mod 'apache',
   :git => 'git@github.com:wacaldwell/apache.git',
