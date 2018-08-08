@@ -1,4 +1,4 @@
-node 'wiki' {
+node 'cavemanbeats-web' {
 
   $wikisitename = 'wiki'
   $wikimetanamespace = 'Wiki'
