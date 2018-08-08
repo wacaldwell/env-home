@@ -9,4 +9,5 @@ node 'cavemanbeats-web' {
   $wikidbpassword = 'training'
   $wikiupgradekey = 'puppet'
 
+  class { 'mediawiki': }
 }
