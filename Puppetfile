@@ -8,6 +8,7 @@ mod 'puppetlabs-mysql', '6.0.0'
 mod 'puppetlabs-apache', '3.2.0'
 mod 'puppetlabs-vcsrepo', '2.3.0'
 mod 'puppetlabs-firewall', '1.12.0'
+mod 'martasd-mediawiki', '0.3.0'
 #
 mod 'sysprep',
   :git => 'git@github.com:wacaldwell/sysprep.git',
