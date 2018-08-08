@@ -15,9 +15,6 @@ mod 'sysprep',
 mod 'syskeys',
   :git => 'git@github.com:wacaldwell/syskeys.git',
   :branch => 'master'
-mod 'mediawiki',
-  :git => 'git@github.com:wacaldwell/mediawiki.git',
-  :branch => 'master'
 mod 'sysmounts',
   :git => 'git@github.com:wacaldwell/sysmounts.git',
   :branch => 'master'
