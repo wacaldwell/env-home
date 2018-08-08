@@ -1,14 +1,5 @@
 node 'cavemanbeats-web' {
 
-  $wikisitename = 'wiki'
-  $wikimetanamespace = 'CMB Wiki'
-  $wikiserver = "http://192.168.1.50"
-  $wikidbserver = 'localhost'
-  $wikidbname = 'wiki'
-  $wikidbuser = 'wiki'
-  $wikidbpassword = 'Ficken2300'
-  $wikiupgradekey = 'puppet'
-
   class { 'linux': }
   class { 'mediawiki': }
 
