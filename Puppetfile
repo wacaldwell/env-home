@@ -22,6 +22,6 @@ mod 'sysmounts',
 mod 'sysfiles',
   :git => 'git@github.com:wacaldwell/sysfiles.git',
   :branch => 'master'
-mod 'sysfiles',
+mod 'telegraf',
   :git => 'git@github.com:wacaldwell/telegraf.git',
     :branch => 'develop'
