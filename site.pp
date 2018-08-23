@@ -22,4 +22,9 @@ node 'cavemanbeats-web' {
   port        => '80',
   ensure      => 'present'
   }
+
+  include sysfiles
+}
+
+node 'cavemanbeats-cmbase' {
 }
