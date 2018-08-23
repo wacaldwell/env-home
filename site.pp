@@ -4,6 +4,5 @@ node 'cavemanbeats-web' {
 }
 
 node 'cavemanbeats-cmbase' {
-  include sysfiles
   include sysprep
 }
