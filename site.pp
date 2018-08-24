@@ -9,3 +9,11 @@ node 'cavemanbeats-cmbase' {
   include sysprep
   include telegraf
 }
+
+node 'puppet-agent-centos' {
+  include telegraf
+}
+
+node 'sensu' {
+  include telegraf
+}
