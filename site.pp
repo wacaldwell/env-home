@@ -11,8 +11,9 @@ node 'cavemanbeats-cmbase' {
   include time
 }
 
-node 'nagios-cmbase' {
+node 'centos7-x64-nagios4-cmbase' {
   include sysprep
+  include sysfiles
   include telegraf
   include time
 }
