@@ -11,6 +11,12 @@ node 'cavemanbeats-cmbase' {
   include time
 }
 
+node 'nagios-cmbase' {
+  include sysprep
+  include telegraf
+  include time
+}
+
 node 'puppet-agent-centos' {
   include telegraf
   include time
