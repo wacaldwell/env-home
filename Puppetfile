@@ -24,7 +24,7 @@ mod 'sysfiles',
   :branch => 'master'
 mod 'telegraf',
   :git => 'git@github.com:wacaldwell/telegraf.git',
-    :branch => 'develop'
+    :branch => 'master'
 mod 'time',
   :git => 'git@github.com:wacaldwell/time.git',
       :branch => 'master'
