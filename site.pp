@@ -8,12 +8,7 @@ node 'cavemanbeats-cmbase' {
   include time
 }
 
-node 'centos7-x64-nagios4-cmbase' {
-  include telegraf
-  include time
-}
-
-node 'puppet-agent-centos' {
+node 'cmbpi-cmbase' {
   include telegraf
   include time
 }
