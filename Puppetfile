@@ -10,8 +10,8 @@ mod 'puppetlabs-vcsrepo', '2.3.0'
 mod 'puppetlabs-firewall', '1.12.0'
 mod 'martasd-mediawiki', '0.3.0'
 #
-mod 'sysprep',
-  :git => 'git@github.com:wacaldwell/sysprep.git',
+mod 'hosts',
+  :git => 'git@github.com:wacaldwell/hosts.git',
   :branch => 'master'
 mod 'syskeys',
   :git => 'git@github.com:wacaldwell/syskeys.git',
