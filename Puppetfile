@@ -13,15 +13,6 @@ mod 'martasd-mediawiki', '0.3.0'
 mod 'hosts',
   :git => 'git@github.com:wacaldwell/hosts.git',
   :branch => 'master'
-mod 'syskeys',
-  :git => 'git@github.com:wacaldwell/syskeys.git',
-  :branch => 'master'
-mod 'sysmounts',
-  :git => 'git@github.com:wacaldwell/sysmounts.git',
-  :branch => 'master'
-mod 'sysfiles',
-  :git => 'git@github.com:wacaldwell/sysfiles.git',
-  :branch => 'master'
 mod 'telegraf',
   :git => 'git@github.com:wacaldwell/telegraf.git',
     :branch => 'master'
