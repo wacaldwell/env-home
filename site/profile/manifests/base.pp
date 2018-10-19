@@ -1,5 +1,6 @@
 class profile::base {
   class { '::ntp': }
-  class { '::mediawiki': }
+  class { '::software': }
+  class { '::telegraf': }
 
 }
