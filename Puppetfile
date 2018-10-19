@@ -9,12 +9,10 @@ mod 'puppetlabs-vcsrepo', '2.3.0'
 mod 'puppetlabs-firewall', '1.12.0'
 mod 'martasd-mediawiki', '0.3.0'
 #
-mod 'hosts',
-  :git => 'git@github.com:wacaldwell/hosts.git',
-  :branch => 'master'
 mod 'telegraf',
   :git => 'git@github.com:wacaldwell/telegraf.git',
     :branch => 'master'
-mod 'time',
-  :git => 'git@github.com:wacaldwell/time.git',
-      :branch => 'master'
+
+mod 'software',
+  :git => 'git@github.com:wacaldwell/software.git',
+    :branch => 'master'
