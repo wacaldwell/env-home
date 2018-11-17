@@ -16,3 +16,7 @@ mod 'telegraf',
 mod 'software',
   :git => 'git@github.com:wacaldwell/software.git',
     :branch => 'master'
+    
+mod 'hosts',
+  :git => 'git@github.com:wacaldwell/hosts.git',
+    :branch => 'master'
