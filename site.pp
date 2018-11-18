@@ -7,6 +7,7 @@ node 'cavemanbeats-cmbase' {
   include telegraf
   include software
   include hosts
+  include sysmounts
 }
 
 node 'cmbpi-cmbase' {
