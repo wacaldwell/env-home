@@ -3,7 +3,7 @@ node 'cavemanbeats-web' {
   include software
 }
 
-node 'cavemanbeats' {
+node 'cavemanbeats-cmbase' {
   include telegraf
   include software
   include hosts
