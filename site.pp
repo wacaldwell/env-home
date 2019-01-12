@@ -1,16 +1,16 @@
-node cavemanbeats-cmbase {
-  include apache
-  include sysprep
-  include syskeys
+node 'cavemanbeats-web' {
+  include telegraf
+  include software
+}
+
+node 'cavemanbeats-cmbase' {
+  include telegraf
+  include software
+  include hosts
   include sysmounts
-  include mediawiki
 }
 
-node cmbpi-cmbase {
-  include syskeys
-  include sysprep
+node /nagios/ {
+  include telegraf
 }
 
-node ubuntu-cmbase {
-  include syskeys
-}
