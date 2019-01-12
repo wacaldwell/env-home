@@ -10,7 +10,7 @@ node 'cavemanbeats-cmbase' {
   include sysmounts
 }
 
-node 'nagios.cavemanbeats.com' {
+node /nagios/ {
   include telegraf
 }
 
