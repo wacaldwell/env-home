@@ -1,10 +1,10 @@
-node 'cavemanbeats-web' {
+node /web/ {
   include telegraf
   include software
   include hosts
 }
 
-node 'cavemanbeats-cmbase' {
+node /base/ {
   include telegraf
   include software
   include hosts
