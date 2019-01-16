@@ -1,6 +1,7 @@
 node 'cavemanbeats-web' {
   include telegraf
   include software
+  include hosts
 }
 
 node 'cavemanbeats-cmbase' {
@@ -12,5 +13,7 @@ node 'cavemanbeats-cmbase' {
 
 node /nagios/ {
   include telegraf
+  include hosts
+  include software
 }
 
