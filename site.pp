@@ -1,9 +1,9 @@
-node 'cavemanbeats-web' {
+node /web/ {
   include telegraf
   include software
 }
 
-node /cavemanbeats/ {
+node /base/ {
   include telegraf
   include software
   include hosts
