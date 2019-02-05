@@ -1,5 +1,6 @@
 node /web/ {
   include telegraf
+  include hosts
   include software
 }
 
