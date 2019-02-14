@@ -1,16 +1,2 @@
-node /web/ {
-  include telegraf
-  include software
-  include hosts
-}
+hiera_include('classes')
 
-node /base/ {
-  include software
-  include hosts
-}
-
-node /nagios/ {
-  include telegraf
-  include hosts
-  include software
-}
