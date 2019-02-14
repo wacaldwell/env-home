@@ -5,7 +5,6 @@ node /web/ {
 }
 
 node /base/ {
-  include telegraf
   include software
   include hosts
 }
