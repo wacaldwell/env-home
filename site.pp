@@ -5,6 +5,7 @@ node /web/ {
 }
 
 node /base/ {
+  include users
   include directories
   include software
   include hosts

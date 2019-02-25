@@ -28,3 +28,7 @@ mod 'sysmounts',
 mod 'directories',
   :git => 'git@github.com:wacaldwell/dirs.git',
     :branch => 'master'
+
+mod 'users',
+  :git => 'git@github.com:wacaldwell/users.git',
+    :branch => 'develop'
