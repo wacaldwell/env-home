@@ -24,3 +24,7 @@ mod 'hosts',
 mod 'sysmounts',
   :git => 'git@github.com:wacaldwell/sysmounts.git',
     :branch => 'master'
+
+mod 'directories',
+  :git => 'git@github.com:wacaldwell/dirs.git',
+    :branch => 'master'
