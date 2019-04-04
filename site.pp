@@ -10,6 +10,7 @@ node /base/ {
   include software
   include hosts
   include telegraf
+  include sysmounts
 }
 
 node /nagios/ {
