@@ -11,6 +11,7 @@ node /base/ {
   include hosts
   include telegraf
   include sysmounts
+  include sysfiles
 }
 
 node /nagios/ {

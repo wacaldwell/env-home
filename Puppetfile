@@ -25,6 +25,10 @@ mod 'sysmounts',
   :git => 'git@github.com:wacaldwell/sysmounts.git',
     :branch => 'master'
 
+mod 'sysfiles',
+  :git => 'git@github.com:wacaldwell/sysfiles.git',
+      :branch => 'master'
+
 mod 'directories',
   :git => 'git@github.com:wacaldwell/dirs.git',
     :branch => 'master'
