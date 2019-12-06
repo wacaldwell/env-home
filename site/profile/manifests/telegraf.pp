@@ -1,4 +1,4 @@
-class profile::telegraf {
+class profile::base {
   class { '::telegraf': }
 
 }
