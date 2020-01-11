@@ -11,6 +11,13 @@ node /base/ {
   include sysmounts
 }
 
+node /monstack/ {
+  include telegraf
+  include software
+  include hosts
+  include sysmounts
+}
+
 node /nagios/ {
   include telegraf
   include hosts
