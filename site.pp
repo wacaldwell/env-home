@@ -20,7 +20,6 @@ node /monstack/ {
 
 node /nagios/ {
   include telegraf
-  include hosts
   include software
 }
 
