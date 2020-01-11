@@ -9,7 +9,6 @@ node /base/ {
   include software
   include hosts
   include sysmounts
-  incluce duckdns
 }
 
 node /monstack/ {
