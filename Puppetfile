@@ -21,7 +21,7 @@ mod 'sysmounts',
     :branch => 'master'
 
 mod 'duckdns',
-  :git => 'git@github.com:wacaldwell/duckns.git',
+  :git => 'git@github.com:wacaldwell/duckdns.git',
     :branch => 'master'
 
 mod 'directories',

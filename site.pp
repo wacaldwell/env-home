@@ -9,13 +9,13 @@ node /base/ {
   include software
   include hosts
   include sysmounts
+  incluce duckdns
 }
 
 node /monstack/ {
   include telegraf
   include software
   include hosts
-  include sysmounts
 }
 
 node /nagios/ {
