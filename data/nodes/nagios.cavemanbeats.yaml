@@ -4,3 +4,4 @@ classes:
   - ntp
   - hosts
   - software
+  - telegraf
