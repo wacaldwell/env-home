@@ -3,3 +3,5 @@
 classes:
   - ntp
   - telegraf
+  - hosts
+  - sysmounts
