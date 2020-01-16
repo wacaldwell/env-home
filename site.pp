@@ -1,5 +1,1 @@
-node /base/ {
-  include ntp
-}
-
-
+hiera_include('classes')
