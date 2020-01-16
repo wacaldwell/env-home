@@ -1,6 +1,5 @@
 ---
-profile::hiera_test::ssl: true
-profile::hiera_test::site_alias: base.cavemanbeats
 
 classes:
   - ntp
+  - telegraf
