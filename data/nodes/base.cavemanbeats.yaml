@@ -5,3 +5,4 @@ classes:
   - telegraf
   - hosts
   - sysmounts
+  - software
