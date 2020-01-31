@@ -24,6 +24,10 @@ mod 'sysmounts',
   :git => 'git@github.com:wacaldwell/sysmounts.git',
     :branch => 'master'
 
+mod 'sshdconfig',
+  :git => 'git@github.com:wacaldwell/sshdconfig.git',
+    :branch => 'master'
+
 mod 'duckdns',
   :git => 'git@github.com:wacaldwell/duckdns.git',
     :branch => 'master'
