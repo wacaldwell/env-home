@@ -1,6 +1,6 @@
 ---
 
-motd::message: "These servers are for internal use only!"
+motd::message: "These servers are for internal use only!\n"
 
 profile::hiera_test::ssl: false
 profile::hiera_test::backups_enabled: true
