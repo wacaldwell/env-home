@@ -1,9 +1,6 @@
 ---
 
 classes:
-  - ntp
-  - telegraf
-  - hosts
   - sysmounts
   - software
   - sshdconfig
