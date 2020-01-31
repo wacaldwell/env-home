@@ -6,3 +6,4 @@ classes:
   - hosts
   - sysmounts
   - software
+  - sshdconfig
