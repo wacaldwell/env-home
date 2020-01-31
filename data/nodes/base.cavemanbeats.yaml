@@ -3,4 +3,5 @@
 classes:
   - sysmounts
   - software
-  - sshdconfig
+  - hosts
+  - motd
