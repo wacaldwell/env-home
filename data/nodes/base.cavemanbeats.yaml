@@ -3,5 +3,5 @@
 classes:
   - sysmounts
   - motd
-  - sshdconfig
-  - keys
+
+
