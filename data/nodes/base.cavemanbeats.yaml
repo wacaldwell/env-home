@@ -2,7 +2,5 @@
 
 classes:
   - sysmounts
-  - software
-  - hosts
   - motd
   - keys

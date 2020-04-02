@@ -16,12 +16,20 @@ mod 'hosts',
   :git => 'git@github.com:wacaldwell/hosts.git',
     :branch => 'master'
 
+mod 'keys',
+  :git => 'git@github.com:wacaldwell/keys.git',
+    :branch => 'master'
+
 mod 'motd',
   :git => 'git@github.com:wacaldwell/motd.git',
     :branch => 'master'
 
 mod 'sysmounts',
   :git => 'git@github.com:wacaldwell/sysmounts.git',
+    :branch => 'master'
+
+mod 'sshdconfig',
+  :git => 'git@github.com:wacaldwell/sshdconfig.git',
     :branch => 'master'
 
 mod 'duckdns',
