@@ -3,5 +3,4 @@
 classes:
   - sysmounts
   - motd
-
-
+  - keys
