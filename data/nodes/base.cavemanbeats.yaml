@@ -1,7 +1,5 @@
 ---
+keys::owner: 'root'
+keys::group: 'root'
+keys::mode: '0644'
 
-classes:
-  - sysmounts
-  - motd
-  - keys
-  - duckdns
