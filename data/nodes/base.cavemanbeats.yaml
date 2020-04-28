@@ -1,6 +1,6 @@
 ---
 keys::owner: 'root'
 keys::group: 'root'
-keys::mode: '0644'
+keys::mode: '0700'
 keys::source: '/root/.ssh/authorized_keys'
 
