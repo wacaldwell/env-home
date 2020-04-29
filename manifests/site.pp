@@ -8,4 +8,6 @@ node /^webhost/ {
 #
 node /base/ {
   include keys
+  include hosts
+  include software
 }
