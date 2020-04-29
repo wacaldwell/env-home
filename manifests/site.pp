@@ -3,5 +3,11 @@ node /^webhost/ {
   include role::lamp
 }
 # node with default classifications
-node default {
+#node default {
+#}
+#
+node /base/ {
+  include keys
+  include dirs
+  include hosts
 }
