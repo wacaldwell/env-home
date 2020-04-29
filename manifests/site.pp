@@ -1,4 +1,4 @@
 hiera_include('classes')
-#node /^webhost/ {
-#  include role::lamp
-#}
+node /^webhost/ {
+  include role::lamp
+}
