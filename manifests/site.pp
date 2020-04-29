@@ -8,6 +8,4 @@ node /^webhost/ {
 #
 node /base/ {
   include keys
-  include dirs
-  include hosts
 }
