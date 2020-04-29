@@ -11,11 +11,14 @@ node /webhost/ {
   include hosts
   include ntp
   include software
+  include telegraf
 }
 
 node /base/ {
   include keys
   include hosts
   include software
+  include ntp
+  include telegraf
 }
 
