@@ -2,3 +2,6 @@
 node /^webhost/ {
   include role::lamp
 }
+# node with default classifications
+default {
+}
