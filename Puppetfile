@@ -6,7 +6,7 @@ mod 'puppetlabs/stdlib'
 #
 mod 'telegraf',
   :git => 'git@github.com:wacaldwell/telegraf.git',
-    :branch => 'master'
+    :branch => 'develop'
 
 mod 'software',
   :git => 'git@github.com:wacaldwell/software.git',
