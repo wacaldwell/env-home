@@ -1,7 +1,3 @@
 ---
 
-keys::owner: 'root'
-keys::group: 'root'
-keys::mode: '0644'
-keys::source: '/root/.ssh/authorized_keys'
 motd::message: "===== Welcome to the Cave! =====\n===== These servers are for internal use only! =====\n"
