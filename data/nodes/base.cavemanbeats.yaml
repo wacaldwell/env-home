@@ -4,4 +4,6 @@ keys::owner: 'root'
 keys::group: 'root'
 keys::mode: '0700'
 keys::source: 'puppet:///modules/keys/authorized_keys'
-
+telegraf::user: 'root'
+telegraf::group: 'root'
+telegraf::mode: '0644'
