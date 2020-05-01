@@ -11,4 +11,10 @@ telegraf::install::gpgcheck: 'yes'
 telegraf::install::gpgkey: 'https://repos.influxdata.com/influxdb.key'
 telegraf::service::ensure: 'present'
 telegraf::service::enable: 'true'
+sshdconfig::owner: 'root'
+sshdconfig::group: 'root'
+sshdconfig::mode: '0644'
+sshdconfig::ensure: 'running'
+sshdconfig::enable: 'true'
+
 
