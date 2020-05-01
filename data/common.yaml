@@ -1,8 +1,7 @@
 ---
 classes: {}
 
-motd::message: '------------------------------------------------------------
-Cavemanbeats
-OS:      $(cat /etc/centos-release) $(uname -r)
-
+motd::message: '------------------------------------------------------------\n
+Cavemanbeats\n
+OS:      $(cat /etc/centos-release) $(uname -r)\n
 ------------------------------------------------------------'
