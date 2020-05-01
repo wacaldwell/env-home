@@ -2,25 +2,17 @@
 node /^webhost/ {
   include role::lamp
 }
-# node with default classifications
-#node default {
-#}
 
-# node /webhost/ {
+node /^base/ {
+  include role::baseserver
+}
+
+# node /base/ {
 #   include keys
 #   include hosts
-#   include ntp
 #   include software
+#   include ntp
 #   include telegraf
 #   include motd
 # }
-
-node /base/ {
-  include keys
-  include hosts
-  include software
-  include ntp
-  include telegraf
-  include motd
-}
 
