@@ -1,7 +1,6 @@
 #hiera_include('classes')
 node /^webhost/ {
   include role::lamp
-  include '::mysql::server'
 }
 # node with default classifications
 #node default {
