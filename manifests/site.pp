@@ -12,6 +12,7 @@ node /webhost/ {
   include ntp
   include software
   include telegraf
+  include motd
 }
 
 node /base/ {
@@ -20,5 +21,6 @@ node /base/ {
   include software
   include ntp
   include telegraf
+  include motd
 }
 
