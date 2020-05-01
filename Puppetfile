@@ -1,8 +1,11 @@
 forge 'forge.puppetlabs.com'
 
+
+
 # Forge Modules
 mod 'puppetlabs/ntp', '4.1.0'
-mod 'puppetlabs/stdlib'
+mod 'puppetlabs/stdlib', '6.3.0'
+mod 'puppetlabs-apache', '5.4.0'
 #
 mod 'telegraf',
   :git => 'git@github.com:wacaldwell/telegraf.git',
