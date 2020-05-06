@@ -11,3 +11,6 @@ sysmounts::ensure: 'mounted'
 sysmounts::fstype: 'nfs'
 sysmounts::options: 'default'
 sysmounts::atboot: true
+directories::ensure: 'directory'
+directories::owner: 'beatmassa'
+directories::group: 'lexadmins'
