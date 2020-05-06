@@ -1,7 +1,2 @@
 ---
-
-classes:
-  - ntp
-  - telegraf
-  - hosts
-  - software
+monsoft::
