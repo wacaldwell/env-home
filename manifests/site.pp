@@ -5,6 +5,7 @@ node /^webhost/ {
 
 node /^base/ {
   include role::baseserver
+  include sysmounts
 }
 
 node /^monstack/ {
