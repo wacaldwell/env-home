@@ -7,6 +7,7 @@ keys::source: 'puppet:///modules/keys/authorized_keys'
 telegraf::user: 'root'
 telegraf::group: 'root'
 telegraf::mode: '0644'
+sysmounts::ensure: 'mounted'
 sysmounts::fstype: 'nfs'
 sysmounts::options: 'default'
 sysmounts::atboot: true
