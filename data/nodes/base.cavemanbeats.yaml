@@ -13,4 +13,4 @@ sysmounts::options: 'defaults'
 sysmounts::atboot: true
 directories::ensure: 'directory'
 directories::owner: 'beatmassa'
-directories::group: 'admins'
+directories::group: 'lexadmins'
