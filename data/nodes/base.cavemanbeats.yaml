@@ -1,5 +1,5 @@
 ---
-keys::key:
+keys:
   vagrant:
     name: 'vagrant'
     key: 'xxxx'

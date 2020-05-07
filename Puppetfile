@@ -25,7 +25,7 @@ mod 'hosts',
 
 mod 'keys',
   :git => 'git@github.com:wacaldwell/keys.git',
-    :branch => 'feature/puppet6'
+    :branch => 'master'
 
 mod 'motd',
   :git => 'git@github.com:wacaldwell/motd.git',
