@@ -13,3 +13,6 @@ node /^monstack/ {
   include role::monstack
 }
 
+node /^nagios/ {
+}
+
