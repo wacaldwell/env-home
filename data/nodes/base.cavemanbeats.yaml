@@ -1,9 +1,9 @@
 ---
-keys:
-  vagrant:
-    name: 'vagrant'
-    key: 'xxxx'
-    type: 'ssh-rsa'
+# keys:
+#   vagrant:
+#     name: 'vagrant'
+#     key: 'xxxx'
+#     type: 'ssh-rsa'
 telegraf::user: 'root'
 telegraf::group: 'root'
 telegraf::mode: '0644'

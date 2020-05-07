@@ -2,7 +2,7 @@
 #
 class role::monstack {
   include ::profile::hosts
-  include ::profile::keys
+#  include ::profile::keys
   include ::profile::grafana
   include ::profile::influxdb
 }
