@@ -5,4 +5,5 @@ class role::baseserver {
   include ::profile::hosts
   include ::profile::keys
   include ::profile::sshdconfig
+  include ::profile::users
 }
