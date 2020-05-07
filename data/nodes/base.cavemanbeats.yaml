@@ -1,9 +1,9 @@
 ---
-keys::path: '/root/.ssh/authorized_keys'
-keys::owner: 'root'
-keys::group: 'root'
-keys::mode: '0700'
-keys::source: 'puppet:///modules/keys/authorized_keys'
+keys::key:
+  vagrant:
+    name: 'vagrant'
+    key: 'xxxx'
+    type: 'ssh-rsa'
 telegraf::user: 'root'
 telegraf::group: 'root'
 telegraf::mode: '0644'
@@ -14,3 +14,9 @@ sysmounts::atboot: true
 directories::ensure: 'directory'
 directories::owner: 'beatmassa'
 directories::group: 'admins'
+
+
+String $ensure,
+String $user,
+String $type,
+String $key,
