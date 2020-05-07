@@ -14,9 +14,3 @@ sysmounts::atboot: true
 directories::ensure: 'directory'
 directories::owner: 'beatmassa'
 directories::group: 'admins'
-
-
-String $ensure,
-String $user,
-String $type,
-String $key,
