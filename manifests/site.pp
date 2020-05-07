@@ -14,5 +14,6 @@ node /^monstack/ {
 }
 
 node /^nagios/ {
+  include role::baseserver
 }
 
