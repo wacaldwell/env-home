@@ -5,8 +5,6 @@ node /^webhost/ {
 
 node /^base/ {
   include role::baseserver
-  include sysmounts
-  include directories
 }
 
 node /^monstack/ {
@@ -18,6 +16,6 @@ node /^nagios/ {
 }
 
 node /^pi2/ {
-  include hosts
+  include role::pies
 }
 

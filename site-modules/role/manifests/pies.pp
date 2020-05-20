@@ -2,4 +2,5 @@
 #
 class role::pies {
   include ::profile::hosts
+  incluce ::profile::keys
 }
