@@ -1,6 +1,9 @@
-# Role for a Pi boxes.
+# Role for a pies server.
 #
 class role::pies {
+#  include ::profile::software
   include ::profile::hosts
-  incluce ::profile::keys
+#  include ::profile::keys
+#  include ::profile::sshdconfig
+#  include ::profile::users
 }
