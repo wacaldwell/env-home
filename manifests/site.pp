@@ -17,7 +17,7 @@ node /^nagios/ {
   include role::baseserver
 }
 
-node /^pi2/ {
-  include hosts
+node /^pi/ {
+  include role::pies
 }
 
