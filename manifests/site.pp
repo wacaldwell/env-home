@@ -16,6 +16,6 @@ node /^nagios/ {
 }
 
 node /^pi2/ {
-  include role::pies
+  include role::baseserver
 }
 
