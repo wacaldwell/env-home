@@ -2,5 +2,6 @@
 #
 class role::raspberries {
   include ::profile::hosts
-  include ::profile::sshdconfig
+  include ::profile::telegraf
+  include ::profile::keys
 }
