@@ -3,5 +3,4 @@
 class role::raspberries {
   include ::profile::hosts
   include ::profile::telegraf
-  include ::profile::keys
 }
