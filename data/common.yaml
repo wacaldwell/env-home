@@ -2,9 +2,3 @@
 classes: {}
 
 motd::message: 'Welcome to Cavemanbeats'
-telegraf::install::baseurl: 'https://repos.influxdata.com/rhel/\$releasever/\$basearch/stable'
-telegraf::install::gpgcheck: 'yes'
-telegraf::install::gpgkey: 'https://repos.influxdata.com/influxdb.key'
-sshdconfig::owner: 'root'
-sshdconfig::group: 'root'
-sshdconfig::mode: '0644'
