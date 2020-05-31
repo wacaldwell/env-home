@@ -1,4 +1,4 @@
 ---
 classes: {}
 
-motd::message: 'Welcome to Cavemanbeats'
+motd::message: 'Welcome to Cavemanbeats\nFor internal use only man!'
