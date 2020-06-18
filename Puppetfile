@@ -11,6 +11,7 @@ mod 'puppet-php', '7.0.0'
 mod 'puppet-grafana', '6.1.0'
 mod 'golja-influxdb', '4.0.0'
 mod 'hunner-wordpress', '1.0.0'
+mod 'ghoneycutt-hosts', '2.7.0'
 #
 mod 'telegraf',
   :git => 'git@github.com:wacaldwell/telegraf.git',

@@ -3,6 +3,6 @@ classes: {}
 
 motd::message: 'Welcome to Cavemanbeats\nFor internal use only man!'
 hosts::host:
-    name: 'pi2.cavemanbeats'
-    ip: '192.168.1.12'
-    host_aliases: 'pi2.cavemanbeats'
+  name: 'pi2.cavemanbeats'
+  ip: '192.168.1.12'
+  host_aliases: 'pi2.cavemanbeats'
