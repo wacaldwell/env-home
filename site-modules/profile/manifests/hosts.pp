@@ -1,5 +1,5 @@
 # == Class: profile::hosts
 #
 class profile::hosts {
-  class { '::hosts': }
+  class { '::ghoneycutt-hosts': }
 }

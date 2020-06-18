@@ -9,7 +9,3 @@ sysmounts::atboot: true
 directories::ensure: 'directory'
 directories::owner: 'beatmassa'
 directories::group: 'lexadmins'
-hosts::host:
-    name: 'pi2.cavemanbeats'
-    ip: '192.168.1.12'
-    host_aliases: 'pi2.cavemanbeats'
