@@ -18,7 +18,8 @@ node /^nagios/ {
 node /^pi2/ {
   include role::raspberries
 }
-node /pi/ {
+
+node /^pi/ {
   include role::raspberries
 }
 
