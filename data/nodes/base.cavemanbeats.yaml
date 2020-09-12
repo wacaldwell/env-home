@@ -1,4 +1,5 @@
 ---
+hosts
 telegraf::user: 'root'
 telegraf::group: 'root'
 telegraf::mode: '0644'
