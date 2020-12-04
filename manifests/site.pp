@@ -3,6 +3,10 @@ node /^webhost/ {
   include role::lamp
 }
 
+node /^ubuntu/ {
+  include role::baseserver
+}
+
 node /^base/ {
   include role::baseserver
 }
