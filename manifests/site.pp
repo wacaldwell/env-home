@@ -28,5 +28,5 @@ node /pi/ {
 }
 
 node /pi3/ {
-  include role::raspberries
+  include role::baseserver
 }
