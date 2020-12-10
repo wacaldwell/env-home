@@ -19,11 +19,14 @@ node /^nagios/ {
   include role::baseserver
 }
 
-node /^pi2/ {
+node /pi2/ {
   include role::raspberries
 }
 
-node /^pi/ {
+node /pi/ {
   include role::raspberries
 }
 
+node /pi3/ {
+  include role::raspberries
+}
