@@ -1,3 +1,7 @@
 ---
-
+keys::path: '/root/.ssh/authorized_keys'
+keys::owner: 'root'
+keys::group: 'root'
+keys::mode: '0700'
+keys::source: 'puppet:///modules/keys/authorized_keys'
 
