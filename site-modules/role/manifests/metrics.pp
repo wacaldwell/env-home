@@ -1,5 +1,5 @@
-# Role for a monstack server.
+# Role for a mectrics server.
 #
-class role::monstack {
+class role::metrics {
   include ::profile::hosts
 }
