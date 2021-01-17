@@ -23,7 +23,7 @@ node /pi2/ {
   include role::raspberries
 }
 
-node /metrics/ {
+node /^metrics/ {
   include role::metrics
 }
 
