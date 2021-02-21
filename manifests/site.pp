@@ -15,6 +15,10 @@ node /^monstack/ {
   include role::monstack
 }
 
+node /ns1/ 
+  include role::baseserver
+}
+
 node /^nagios/ {
   include role::baseserver
 }
