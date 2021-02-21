@@ -15,7 +15,7 @@ node /^monstack/ {
   include role::monstack
 }
 
-node /ns1/ 
+node /ns1/ { 
   include role::baseserver
 }
 
