@@ -27,8 +27,8 @@ node /pi2/ {
   include role::raspberries
 }
 
-node /^metrics/ {
-  include role::metrics
+node /metrics/ {
+  include role::raspberries
 }
 
 node /pi3/ {
