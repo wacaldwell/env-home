@@ -23,7 +23,7 @@ node /^nagios/ {
   include role::baseserver
 }
 
-node /pi2/ {
+node /pihole/ {
   include role::raspberries
 }
 
