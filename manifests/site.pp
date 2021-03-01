@@ -23,6 +23,10 @@ node /^nagios/ {
   include role::baseserver
 }
 
+node /puppet/ {
+  include role::baseserver
+}
+
 node /pihole/ {
   include role::raspberries
 }
