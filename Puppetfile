@@ -51,3 +51,8 @@ mod 'directories',
 mod 'users',
   :git => 'git@github.com:wacaldwell/users.git',
     :branch => 'develop'
+
+mod 'resolv',
+  :git => 'git@github.com:wacaldwell/resolv.git',
+    :branch => 'main'
+
