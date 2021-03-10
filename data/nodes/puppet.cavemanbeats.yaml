@@ -1,5 +1,7 @@
 ---
-resolv::nameserver: '192.168.1.139'
+resolv::str:nameserver1: '192.168.1.1'
+resolv::str:nameserver2: '192.168.1.139'
+resolv::str:search: 'cavemanbeats.'
 telegraf::user: 'root'
 telegraf::group: 'root'
 telegraf::mode: '0644'
