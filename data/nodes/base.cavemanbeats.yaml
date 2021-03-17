@@ -1,8 +1,4 @@
 ---
-resolv::nameserver: '192.168.1.139'
-telegraf::user: 'root'
-telegraf::group: 'root'
-telegraf::mode: '0644'
 sysmounts::ensure: 'mounted'
 sysmounts::fstype: 'nfs'
 sysmounts::options: 'defaults'
@@ -10,3 +6,8 @@ sysmounts::atboot: true
 directories::ensure: 'directory'
 directories::owner: 'beatmassa'
 directories::group: 'lexadmins'
+sshdconfig::owner: 'root'
+sshdconfig::group: 'root'
+sshdconfig::mode: '0644'
+sshdconfig::ensure: 'running'
+sshdconfig::enable: 'true'
