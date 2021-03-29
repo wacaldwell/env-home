@@ -6,7 +6,7 @@ sshdconfig::ensure: 'running'
 sshdconfig::enable: 'true'
 telegraf::owner: 'root'
 telegraf::group: 'root'
-telegraf::mode: '0644'
+telegraf::mode: '644'
 users::gid: '10000'
 users::home: '/home/acaldwell'
 users::password: 'ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEw
