@@ -14,7 +14,7 @@ mod 'hunner-wordpress', '1.0.0'
 #
 mod 'telegraf',
   :git => 'git@github.com:wacaldwell/telegraf.git',
-    :branch => 'master'
+    :branch => 'telegraf_last_commit'
 
 mod 'software',
   :git => 'git@github.com:wacaldwell/software.git',
