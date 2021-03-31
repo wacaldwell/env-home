@@ -8,12 +8,16 @@ defaults:
   # datadir: data
   # data_hash: yaml_data
 hierarchy:
+  - name: "Per-node data"                   # Human-readable name.
+    path: "nodes/%{trusted.certname}.yaml"  # File path, relative to datadir.
+  
   - name: "Eyaml hierarchy"
     lookup_key: eyaml_lookup_key # eyaml backend
     paths: 
-      - "nodes/%{::trusted.certname}.yaml"
-      - "common.yaml"
+      - "nodes/%{::trusted.certname}.eyaml"
     options:
         pkcs7_private_key: "/etc/puppetlabls/puppet/keys/private_key.pkcs7.pem"
         pkcs7_public_key: "/etc/puppetlabls/puppet/keys/public_key.pkcs7.pem"
-      
+  
+  - name: "Common data"
+    path: "common.yaml"    
