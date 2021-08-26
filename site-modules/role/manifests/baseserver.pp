@@ -2,10 +2,10 @@
 #
 class role::baseserver {
 # include ::profile::resolv
-  include ::profile::software
-  include ::profile::telegraf
+# include ::profile::software
+#  include ::profile::telegraf
 # include ::profile::keys
 #  include ::profile::sshdconfig
-  include ::profile::users
+#  include ::profile::users
   include ::profile::directories
 }
