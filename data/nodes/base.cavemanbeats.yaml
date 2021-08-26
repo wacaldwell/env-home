@@ -1,4 +1,9 @@
 ---
+users::name: 'beatmassa'
+users::gid: '1001'
+users::groups: 'lexadmins'
+users::home: '/home/beatmassa'
+users::shell: 'bash'
 sysmounts::ensure: 'mounted'
 sysmounts::fstype: 'nfs'
 sysmounts::options: 'defaults'
