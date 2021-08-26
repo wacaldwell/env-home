@@ -9,7 +9,7 @@ sysmounts::fstype: 'nfs'
 sysmounts::options: 'defaults'
 sysmounts::atboot: true
 directories::dirs: [ '/opt/movies', '/opt/tvrips', '/opt/music', '/opt/backup', '/opt/cavemanbeats', ]
-directories::ensure: 'directory'
+directories::ensure: 'present'
 directories::owner: 'beatmassa'
 directories::group: 'lexadmins'
 sshdconfig::owner: 'root'
