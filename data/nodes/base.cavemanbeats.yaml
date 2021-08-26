@@ -8,7 +8,7 @@ sysmounts::ensure: 'mounted'
 sysmounts::fstype: 'nfs'
 sysmounts::options: 'defaults'
 sysmounts::atboot: true
-directories::my_dirs: [ '/opt/movies', '/opt/tvrips', '/opt/music', '/opt/backup', '/opt/cavemanbeats', ]
+directories::dirs: [ '/opt/movies', '/opt/tvrips', '/opt/music', '/opt/backup', '/opt/cavemanbeats', ]
 directories::ensure: 'directory'
 directories::owner: 'beatmassa'
 directories::group: 'lexadmins'
