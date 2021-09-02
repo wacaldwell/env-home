@@ -7,4 +7,5 @@ class role::baseserver {
 #  include ::profile::sshdconfig
   include ::profile::users
   include ::profile::directories
+  include ::profile::repos
 }
