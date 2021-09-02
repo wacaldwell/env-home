@@ -56,3 +56,6 @@ mod 'resolv',
   :git => 'git@github.com:wacaldwell/resolv.git',
     :branch => 'main'
 
+mod 'repos',
+  :git => 'git@github.com:wacaldwell/repos.git',
+	      :branch => 'master'
