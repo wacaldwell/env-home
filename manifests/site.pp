@@ -11,7 +11,8 @@ node /^base/ {
   include role::baseserver
 }
 
-node /backyard/ {
+node /^backyard/ {
+  include role::baseserver
 }
 
 node /^monstack/ {
