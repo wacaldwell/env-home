@@ -12,6 +12,7 @@ node /^base/ {
 }
 
 node /^backyard/ {
+  include role::ubuntu
 }
 
 node /^monstack/ {

@@ -1,6 +1,6 @@
 # Role for a pies server.
 #
-class role::raspberries {
+class role::ubuntu {
   include ::profile::hosts
   include ::profile::telegraf
 }
