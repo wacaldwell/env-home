@@ -36,6 +36,10 @@ mod 'sysmounts',
   :git => 'git@github.com:wacaldwell/sysmounts.git',
     :branch => 'master'
 
+mod 'syskeys',
+  :git => 'git@github.com:wacaldwell/syskeys.git',
+    :branch => 'master'
+
 mod 'sshdconfig',
   :git => 'git@github.com:wacaldwell/sshdconfig.git',
     :branch => 'master'
