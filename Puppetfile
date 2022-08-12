@@ -48,7 +48,7 @@ mod 'duckdns',
   :git => 'git@github.com:wacaldwell/duckdns.git',
     :branch => 'master'
 
-mod 'directories',
+mod 'dirs',
   :git => 'git@github.com:wacaldwell/dirs.git',
     :branch => 'master'
 
