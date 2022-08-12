@@ -4,4 +4,5 @@ class role::ubuntu {
   include ::profile::hosts
   include ::profile::telegraf
   include ::profile::syskeys
+  include ::profile::users
 }
