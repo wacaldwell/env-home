@@ -1,9 +1,1 @@
 ---
-users::name: 'beatmassa'
-users::gid: '1001'
-users::groups: 'lexadmins'
-users::home: '/home/beatmassa'
-users::shell: '/bin/bash'
-directories::dirs: [ '/opt/movies', '/opt/tvrips', '/opt/mixes', '/opt/mp3', '/opt/backup', '/opt/cavemanbeats', ]
-directories::owner: 'beatmassa'
-directories::group: 'lexadmins'
