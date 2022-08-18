@@ -1,4 +1,5 @@
 ---
+mediawiki::server_name: 'webhost.cavemanbeats'
 keys::path: '/root/.ssh/authorized_keys'
 keys::owner: 'root'
 keys::group: 'root'
