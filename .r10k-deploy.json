@@ -1,0 +1,134 @@
+{
+  "name": "production",
+  "signature": "7b97196cea65c15f3557c49680d0fb287ef8c58e",
+  "started_at": "2022-08-18 13:13:44 -0700",
+  "finished_at": "2022-08-18 13:13:53 -0700",
+  "deploy_success": true,
+  "module_deploys": [
+    {
+      "name": "ntp",
+      "version": "4.1.0",
+      "sha": null
+    },
+    {
+      "name": "stdlib",
+      "version": "6.3.0",
+      "sha": null
+    },
+    {
+      "name": "apache",
+      "version": "8.1.0",
+      "sha": null
+    },
+    {
+      "name": "concat",
+      "version": "6.2.0",
+      "sha": null
+    },
+    {
+      "name": "translate",
+      "version": "2.2.0",
+      "sha": null
+    },
+    {
+      "name": "mysql",
+      "version": "12.0.3",
+      "sha": null
+    },
+    {
+      "name": "php",
+      "version": "7.0.0",
+      "sha": null
+    },
+    {
+      "name": "grafana",
+      "version": "6.1.0",
+      "sha": null
+    },
+    {
+      "name": "influxdb",
+      "version": "4.0.0",
+      "sha": null
+    },
+    {
+      "name": "wordpress",
+      "version": "1.0.0",
+      "sha": null
+    },
+    {
+      "name": "mediawiki",
+      "version": "0.4.1",
+      "sha": null
+    },
+    {
+      "name": "memcached",
+      "version": "8.1.0",
+      "sha": null
+    },
+    {
+      "name": "telegraf",
+      "version": "telegraf_last_commit",
+      "sha": "6f879de3cd2309bba97c201a739c447224949fc3"
+    },
+    {
+      "name": "software",
+      "version": "master",
+      "sha": "1ad086a3cffe1f39baac170f151eec81bff19f09"
+    },
+    {
+      "name": "hosts",
+      "version": "master",
+      "sha": "cdd6c7c6f6a92c03686a5cdba5a2c7d6ce70e0c9"
+    },
+    {
+      "name": "keys",
+      "version": "master",
+      "sha": "a03c18f2bdd9be70fda2e66b3612f718bcca2557"
+    },
+    {
+      "name": "motd",
+      "version": "master",
+      "sha": "bc9ab3b45d40afbd24bd971e2b096f8eef310ce9"
+    },
+    {
+      "name": "sysmounts",
+      "version": "master",
+      "sha": "6b6530cd088077b055b17eb60b5729aa22c875ff"
+    },
+    {
+      "name": "syskeys",
+      "version": "master",
+      "sha": "c0ad344d0a41339a2eeb2ca058256e7f5024cc00"
+    },
+    {
+      "name": "sshdconfig",
+      "version": "master",
+      "sha": "dc47c3b95d3662942efe936f73be0f30dea0abaa"
+    },
+    {
+      "name": "duckdns",
+      "version": "master",
+      "sha": "909bcafff3cadbebdb4b52bb5d7c25dd707a61f7"
+    },
+    {
+      "name": "dirs",
+      "version": "master",
+      "sha": "fa7bd817ff969fd8098756a7585efd8be88f7a4f"
+    },
+    {
+      "name": "users",
+      "version": "develop",
+      "sha": "b80fea8bbd4a786b364abe0452a9bd4b98c0fa52"
+    },
+    {
+      "name": "resolv",
+      "version": "main",
+      "sha": "9b7b695642e895993839986327b6ab9e3b5b764a"
+    },
+    {
+      "name": "repos",
+      "version": "master",
+      "sha": "4e8dd86032f2e5fb90f352a82569774b67514f22"
+    }
+  ]
+}
