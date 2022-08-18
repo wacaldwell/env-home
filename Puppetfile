@@ -1,17 +1,19 @@
 forge 'forge.puppetlabs.com'
 
 # Forge Modules
-mod 'puppetlabs/ntp', '4.1.0'
-mod 'puppetlabs/stdlib', '6.3.0'
-mod 'puppetlabs-apache', '5.4.0'
+mod 'puppetlabs-ntp', '4.1.0'
+mod 'puppetlabs-stdlib', '6.3.0'
+mod 'puppetlabs-apache', '8.1.0'
 mod 'puppetlabs-concat', '6.2.0'
 mod 'puppetlabs-translate', '2.2.0'
-mod 'puppetlabs-mysql', '10.4.0'
+mod 'puppetlabs-mysql', '12.0.3'
 mod 'puppet-php', '7.0.0'
 mod 'puppet-grafana', '6.1.0'
 mod 'golja-influxdb', '4.0.0'
 mod 'hunner-wordpress', '1.0.0'
 mod 'hexmode-mediawiki', '0.4.1'
+mod 'saz-memcached', '8.1.0'
+
 #
 mod 'telegraf',
   :git => 'git@github.com:wacaldwell/telegraf.git',
