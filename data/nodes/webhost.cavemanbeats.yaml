@@ -1,5 +1,7 @@
 ---
 mediawiki::server_name: 'webhost.cavemanbeats'
+mediawiki::admin_email: 'wacaldwell@gmail.com'
+mediawiki::db_root_password: 'Ficken2300'
 keys::path: '/root/.ssh/authorized_keys'
 keys::owner: 'root'
 keys::group: 'root'
