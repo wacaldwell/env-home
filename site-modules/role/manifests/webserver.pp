@@ -3,5 +3,5 @@
 class role::webserver {
   include ::profile::hosts
   include ::profile::telegraf
-  include ::profile::wiki
+  include ::profile::mediawiki
 }
