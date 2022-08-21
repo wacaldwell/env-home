@@ -1,5 +1,6 @@
 ---
 mediawiki::max_memory: '1024'
+mediawiki::max_connections: '100'        
 mediawiki::server_name: 'webhost.cavemanbeats'
 mediawiki::admin_email: 'wacaldwell@gmail.com'
 mediawiki::db_root_password: 'Ficken2300'
