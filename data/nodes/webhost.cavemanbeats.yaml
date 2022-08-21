@@ -1,5 +1,5 @@
 ---
-mediawiki::max_connections: '100'
+mediawiki::memcached::max_connections: '100'
 mediawiki::max_memory: '1024'
 mediawiki::server_name: 'webhost.cavemanbeats'
 mediawiki::admin_email: 'wacaldwell@gmail.com'
