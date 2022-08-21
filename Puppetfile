@@ -11,7 +11,6 @@ mod 'puppet-php', '7.0.0'
 mod 'puppet-grafana', '6.1.0'
 mod 'golja-influxdb', '4.0.0'
 mod 'hunner-wordpress', '1.0.0'
-mod 'hexmode-mediawiki', '0.4.1'
 mod 'saz-memcached', '8.1.0'
 
 #
@@ -66,3 +65,6 @@ mod 'resolv',
 mod 'repos',
   :git => 'git@github.com:wacaldwell/repos.git',
 	      :branch => 'master'
+mod 'wiki',
+	  :git => 'git@github.com:wacaldwell/wiki.git',
+	                :branch => 'master'
