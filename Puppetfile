@@ -12,7 +12,7 @@ mod 'puppet-grafana', '6.1.0'
 mod 'golja-influxdb', '4.0.0'
 mod 'hunner-wordpress', '1.0.0'
 mod 'saz-memcached', '8.1.0'
-
+mod 'puppet-mediawiki', '2.0.4'
 #
 mod 'telegraf',
   :git => 'git@github.com:wacaldwell/telegraf.git',
@@ -65,6 +65,3 @@ mod 'resolv',
 mod 'repos',
   :git => 'git@github.com:wacaldwell/repos.git',
 	      :branch => 'master'
-mod 'wiki',
-	  :git => 'git@github.com:wacaldwell/wiki.git',
-	                :branch => 'master'
