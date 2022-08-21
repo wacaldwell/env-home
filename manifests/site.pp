@@ -1,6 +1,6 @@
 #hiera_include('classes')
 node /^webhost/ {
-  include role::lamp
+  include role::webserver
 }
 
 node /^ubuntu/ {

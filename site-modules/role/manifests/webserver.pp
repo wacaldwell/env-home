@@ -1,5 +1,7 @@
 # Role for a web server.
 #
-class role::baseserver {
+class role::webserver {
   include ::profile::hosts
+  include ::profile::telegraf
+  include ::profile::mediawiki
 }
