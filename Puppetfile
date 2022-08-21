@@ -12,8 +12,9 @@ mod 'puppet-grafana', '6.1.0'
 mod 'golja-influxdb', '4.0.0'
 mod 'hunner-wordpress', '1.0.0'
 mod 'saz-memcached', '8.1.0'
-mod 'puppet-mediawiki', '2.0.4'
-#
+mod 'hexmode-mediawiki', '0.4.1'
+
+# private modules#
 mod 'telegraf',
   :git => 'git@github.com:wacaldwell/telegraf.git',
     :branch => 'telegraf_last_commit'
