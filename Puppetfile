@@ -14,10 +14,8 @@ mod 'hunner-wordpress', '1.0.0'
 mod 'saz-memcached', '8.1.0'
 mod 'hexmode-mediawiki', '0.4.1'
 mod 'thias-vsftpd', '0.2.1'
+mod 'datacentred-telegraf', '1.5.0'
 # private modules#
-mod 'telegraf',
-  :git => 'git@github.com:wacaldwell/telegraf.git',
-    :branch => 'telegraf_last_commit'
 
 mod 'software',
   :git => 'git@github.com:wacaldwell/software.git',
