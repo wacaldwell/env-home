@@ -1,2 +1,22 @@
 ---
-
+telegraf::global_tags:
+  role: "%{::role}"
+  hostgroup: "%{::hostgroup}"
+  domain: "%{::domain}"
+telegraf::inputs:
+  cpu:
+    percpu: true
+    totalcpu: true
+  mem:
+  io:
+  net:
+  disk:
+  swap:
+  system:
+telegraf::outputs:
+  influxdb:
+    urls:
+      - "http://192.168.1.14:8086"
+    database: 'influxdb'
+    username: 'telegraf'
+    password: 'Ficken2300'
