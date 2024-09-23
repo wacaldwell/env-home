@@ -5,6 +5,6 @@ class role::baseserver {
   include ::profile::telegraf
   include ::profile::syskeys
   include ::profile::sshdconfig
-  include ::profile::directories
+  include ::profile::dirs
   include ::profile::repos
 }
