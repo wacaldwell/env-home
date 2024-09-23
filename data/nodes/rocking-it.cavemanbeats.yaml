@@ -1,0 +1,18 @@
+keys::path: '/root/.ssh/authorized_keys'
+keys::owner: 'root'
+keys::group: 'root'
+keys::mode: '0700'
+keys::source: 'puppet:///modules/keys/authorized_keys'
+telegraf::install::ensure: 'present'
+telegraf::install::enabled: 'true'
+telegraf::install::gpgcheck: 'yes'
+telegraf::install::gpgkey: 'https://repos.influxdata.com/influxdb.key'
+telegraf::service::ensure: 'present'
+telegraf::service::enable: 'true'
+sshdconfig::owner: 'root'
+sshdconfig::group: 'root'
+sshdconfig::mode: '0644'
+sshdconfig::ensure: 'running'
+sshdconfig::enable: 'true'
+
+

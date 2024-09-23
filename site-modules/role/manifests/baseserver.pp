@@ -3,9 +3,8 @@
 class role::baseserver {
   include ::profile::software
   include ::profile::telegraf
-# include ::profile::keys
-#  include ::profile::sshdconfig
-  include ::profile::users
+  include ::profile::keys
+  include ::profile::sshdconfig
   include ::profile::directories
   include ::profile::repos
 }

@@ -7,6 +7,10 @@ node /^ubuntu/ {
   include role::baseserver
 }
 
+node /^rocking-it/ {
+  include role::baseserver
+}
+
 node /^base/ {
   include role::baseserver
 }
@@ -15,13 +19,6 @@ node /^backyard/ {
   include role::ubuntu
 }
 
-node /^monstack/ {
-  include role::monstack
-}
-
-node /ns1/ { 
-  include role::baseserver
-}
 
 node /^nagios/ {
   include role::baseserver
