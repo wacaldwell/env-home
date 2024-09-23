@@ -6,5 +6,5 @@ class role::baseserver {
   include ::profile::syskeys
   include ::profile::sshdconfig
   include ::profile::dirs
-  include ::profile::repos
+#  include ::profile::repos
 }
