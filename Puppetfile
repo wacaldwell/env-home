@@ -14,7 +14,7 @@ mod 'hunner-wordpress', '1.0.0'
 mod 'saz-memcached', '8.1.0'
 mod 'hexmode-mediawiki', '0.4.1'
 mod 'thias-vsftpd', '0.2.1'
-mod 'datacentred-telegraf', '1.5.0'
+
 # private modules#
 
 mod 'software',
@@ -64,3 +64,7 @@ mod 'resolv',
 mod 'repos',
   :git => 'git@github.com:wacaldwell/repos.git',
 	      :branch => 'master'
+
+mod 'repos',
+  :git => 'git@github.com:wacaldwell/repos.git',
+        :branch => 'telegraf_last_commit'
