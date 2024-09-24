@@ -14,5 +14,5 @@ sshdconfig::group: 'root'
 sshdconfig::mode: '0644'
 sshdconfig::ensure: 'running'
 sshdconfig::enable: 'true'
-
+telegraf::interface: 'enshalada'
 
