@@ -19,7 +19,6 @@ node /^backyard/ {
   include role::ubuntu
 }
 
-
 node /^nagios/ {
   include role::baseserver
 }
