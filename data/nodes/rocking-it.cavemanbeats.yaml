@@ -20,4 +20,10 @@ nfs::nfs_v4_client: true
 # nfs::nfs_v4_idmap_domain: %{::domain}
 nfs::nfs_v4_mount_root: '/opt'
 nfs::nfs_server: 'nas.cavemanbeats'
-nfs::client::mount: '/mnt/data01/video/tvrips'
+nfs::client::mounts:
+  '/mnt/data01/backup':
+    ensure: 'mounted'
+    device: 'nas.cavemanbeats:/mnt/data01/backup'  # Replace 'nfsserver' with the actual NFS server hostname or IP
+    fstype: 'nfs'
+    options: 'defaults'
+    atboot: true
