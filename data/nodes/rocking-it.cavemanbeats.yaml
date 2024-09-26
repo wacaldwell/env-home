@@ -20,4 +20,4 @@ nfs::nfs_v4_client: true
 # nfs::nfs_v4_idmap_domain: %{::domain}
 nfs::nfs_v4_mount_root: '/opt'
 nfs::nfs_server: 'nas.cavemanbeats'
-
+nfs::client::mount: '/mnt/data01/video/tvrips'
