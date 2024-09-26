@@ -23,14 +23,14 @@ nfs::nfs_server: 'nas.cavemanbeats'
 nfs::client::mounts:
   '/opt/backup':
     ensure: 'mounted'
-    device: '192.168.1.50:/mnt/data01/backup'  # Replace 'nfsserver' with the actual NFS server hostname or IP
+    device: '192.168.1.50:/mnt/data01/backup'
     fstype: 'nfs'
     options: 'defaults'
     atboot: true
 nfs::client::mounts:
   '/opt/workspace':
     ensure: 'mounted'
-    device: '192.168.1.50:/mnt/data01/workspace'  # Replace 'nfsserver' with the actual NFS server hostname or IP
+    device: '192.168.1.50:/mnt/data01/workspace'
     fstype: 'nfs'
     options: 'defaults'
     atboot: true
