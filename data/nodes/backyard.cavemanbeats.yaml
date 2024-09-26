@@ -9,3 +9,10 @@ nfs::client::mounts:
     fstype: 'nfs'
     options: 'defaults'
     atboot: true
+telegraf::install::ensure: 'present'
+telegraf::install::enabled: 'true'
+telegraf::install::gpgcheck: 'yes'
+telegraf::config::interface: 'eth0'
+telegraf::install::gpgkey: 'https://repos.influxdata.com/influxdb.key'
+telegraf::service::ensure: 'present'
+telegraf::service::enable: 'true'
