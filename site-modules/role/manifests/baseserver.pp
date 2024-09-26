@@ -6,4 +6,5 @@ class role::baseserver {
   include ::profile::syskeys
   include ::profile::sshdconfig
   include ::profile::hosts
+  include ::profile::nfs
 }
