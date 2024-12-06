@@ -1,0 +1,22 @@
+keys::path: '/root/.ssh/authorized_keys'
+keys::owner: 'root'
+keys::group: 'root'
+keys::mode: '0700'
+keys::source: 'puppet:///modules/keys/authorized_keys'
+telegraf::install::ensure: 'present'
+telegraf::install::enabled: 'true'
+telegraf::install::gpgcheck: 'yes'
+telegraf::config::interface: 'eth0'
+telegraf::install::gpgkey: 'https://repos.influxdata.com/influxdb.key'
+telegraf::service::ensure: 'present'
+telegraf::service::enable: 'true'
+nfs::client_enabled: true
+nfs::nfs_v4_client: true
+nfs::nfs_server: '192.168.1.50'
+nfs::client::mounts:
+  '/mnt/video':
+    ensure: 'mounted'
+    device: '192.168.1.50:/mnt/data01/video'
+    fstype: 'nfs'
+    options: 'defaults'
+    atboot: true
