@@ -3,6 +3,10 @@ node /^webhost/ {
   include role::webserver
 }
 
+node /metrics/ {
+  include role::raspberries
+}
+
 node /^ubuntu/ {
   include role::baseserver
 }
