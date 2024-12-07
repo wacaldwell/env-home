@@ -3,13 +3,3 @@ keys::owner: 'root'
 keys::group: 'root'
 keys::mode: '0700'
 keys::source: 'puppet:///modules/keys/authorized_keys'
-nfs::client_enabled: true
-nfs::nfs_v4_client: true
-nfs::nfs_server: '192.168.1.50'
-nfs::client::mounts:
-  '/mnt/video':
-    ensure: 'mounted'
-    device: '192.168.1.50:/mnt/data01/video'
-    fstype: 'nfs'
-    options: 'defaults'
-    atboot: true
