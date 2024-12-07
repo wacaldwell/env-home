@@ -13,7 +13,7 @@ mod 'saz-memcached', '8.1.0'
 mod 'hexmode-mediawiki', '0.4.1'
 mod 'thias-vsftpd', '0.2.1'
 mod 'derdanne-nfs', '2.1.11'
-
+mod 'puppet-telegraf', '5.4.0'
 # private modules#
 
 mod 'software',
