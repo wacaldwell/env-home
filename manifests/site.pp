@@ -3,7 +3,7 @@ node /^webhost/ {
   include role::webserver
 }
 
-node /video/ {
+node /^video/ {
   include role::raspberries
 }
 
