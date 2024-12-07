@@ -63,7 +63,3 @@ mod 'resolv',
 mod 'repos',
   :git => 'git@github.com:wacaldwell/repos.git',
 	      :branch => 'master'
-
-mod 'telegraf',
-  :git => 'git@github.com:wacaldwell/telegraf.git',
-        :branch => 'telegraf_last_commit'
