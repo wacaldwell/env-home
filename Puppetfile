@@ -1,7 +1,8 @@
 forge 'forge.puppetlabs.com'
 
 # Forge Modules
-# mod 'puppetlabs-stdlib', '9.6.0'
+mod 'puppetlabs-stdlib', '>= 9.0.0 < 10.0.0'
+mod 'puppet-archive', '>= 4.0.0 < 8.0.0'
 # mod 'puppetlabs-apache', '12.2.0'
 # mod 'puppetlabs-concat', '9.0.0'
 # mod 'puppetlabs-mysql', '13.1.0'
@@ -13,6 +14,12 @@ forge 'forge.puppetlabs.com'
 # mod 'hexmode-mediawiki', '0.4.1'
 # mod 'thias-vsftpd', '0.2.1'
 # mod 'derdanne-nfs', '2.1.11'
+
+mod 'puppet-telegraf', '5.4.0'
+
+mod 'puppetlabs-apt', '>= 2.0.0 < 11.0.0'
+
+
 mod 'puppet-telegraf', '5.4.0'
 # private modules#
 
