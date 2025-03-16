@@ -1,14 +1,4 @@
 ---
-telegraf::inputs:
-  cpu:
-    percpu: true
-    totalcpu: true
-  mem:
-  io:
-  net:
-  disk:
-  swap:
-  system:
 telegraf::outputs:
   influxdb:
     urls:
@@ -19,6 +9,3 @@ telegraf::outputs:
 telegraf::install::ensure: 'present'
 telegraf::install::enabled: 'true'
 telegraf::install::gpgcheck: 'yes'
-telegraf::config::interface: 'ens5'
-telegraf::service::ensure: 'present'
-telegraf::service::enable: 'true'
