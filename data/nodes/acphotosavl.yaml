@@ -1,11 +1,59 @@
 ---
-telegraf::outputs:
-  influxdb:
-    urls:
-      - "http://24.178.171.95:8086"
-    database: 'influxdb'
-    username: 'telegraf'
-    password: 'Ficken2300'
-telegraf::install::ensure: 'present'
-telegraf::install::enabled: 'true'
-telegraf::install::gpgcheck: 'yes'
+telegraf::config:
+  agent:
+    interval: "10s"
+    metric_batch_size: 1000
+    metric_buffer_limit: 10000
+    collection_jitter: "0s"
+    flush_interval: "15s"
+    flush_jitter: "10s"
+    hostname: "acphotosavl"
+    logfile: "/var/log/telegraf/telegraf.log"
+
+  outputs:
+    influxdb:
+      urls:
+        - "http://24.178.171.95:8086"
+      insecure_skip_verify: true
+      database: "telegraf"
+      write_consistency: "any"
+      retention_policy: ""
+
+  inputs:
+    cpu:
+      percpu: true
+      totalcpu: true
+      fielddrop:
+        - "time_*"
+    disk:
+      ignore_fs:
+        - "tmpfs"
+        - "devtmpfs"
+    diskio: {}
+    kernel: {}
+    mem: {}
+    processes: {}
+    swap: {}
+    system: {}
+    net: {}
+
+    dns_query:
+      servers:
+        - "8.8.8.8"
+        - "4.2.2.1"
+      domains:
+        - "www.google.com"
+      record_type: "A"
+      port: 53
+      timeout: 2
+
+    ping:
+      urls:
+        - "www.github.com"
+        - "www.amazon.com"
+        - "8.8.8.8"
+        - "4.2.2.1"
+      count: 3
+      ping_interval: 15.0
+      timeout: 10.0
+      interface: "ens5"
