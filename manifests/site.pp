@@ -3,6 +3,10 @@ node /^webhost/ {
   include role::webserver
 }
 
+node /acphotosavl/ {
+  include role::webserver
+}
+
 node /video/ {
   include role::raspberries
 }

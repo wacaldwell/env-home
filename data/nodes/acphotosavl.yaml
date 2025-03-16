@@ -1,0 +1,24 @@
+---
+telegraf::inputs:
+  cpu:
+    percpu: true
+    totalcpu: true
+  mem:
+  io:
+  net:
+  disk:
+  swap:
+  system:
+telegraf::outputs:
+  influxdb:
+    urls:
+      - "http://24.178.171.95:8086"
+    database: 'influxdb'
+    username: 'telegraf'
+    password: 'Ficken2300'
+telegraf::install::ensure: 'present'
+telegraf::install::enabled: 'true'
+telegraf::install::gpgcheck: 'yes'
+telegraf::config::interface: 'ens5'
+telegraf::service::ensure: 'present'
+telegraf::service::enable: 'true'
