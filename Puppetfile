@@ -1,8 +1,11 @@
 forge 'forge.puppetlabs.com'
 
 # Forge Modules
-mod 'puppetlabs-stdlib', '>= 9.0.0 < 10.0.0'
-mod 'puppet-archive', '>= 4.0.0 < 8.0.0'
+# Required Dependencies
+mod 'puppet-archive', '7.0.0'  # Adjust to a specific compatible version
+mod 'puppetlabs-apt', '10.0.0' # Ensure compatibility with your OS
+mod 'puppetlabs-stdlib', '9.0.0' # Instead of range, specify a single version
+
 # mod 'puppetlabs-apache', '12.2.0'
 # mod 'puppetlabs-concat', '9.0.0'
 # mod 'puppetlabs-mysql', '13.1.0'
@@ -16,9 +19,6 @@ mod 'puppet-archive', '>= 4.0.0 < 8.0.0'
 # mod 'derdanne-nfs', '2.1.11'
 
 mod 'puppet-telegraf', '5.4.0'
-
-mod 'puppetlabs-apt', '>= 2.0.0 < 11.0.0'
-
 
 mod 'puppet-telegraf', '5.4.0'
 # private modules#
