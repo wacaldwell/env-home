@@ -20,7 +20,6 @@ mod 'puppetlabs-stdlib', '9.0.0' # Instead of range, specify a single version
 
 mod 'puppet-telegraf', '5.4.0'
 
-mod 'puppet-telegraf', '5.4.0'
 # private modules#
 
 mod 'software',
